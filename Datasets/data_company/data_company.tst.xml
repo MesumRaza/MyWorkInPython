@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Data Company Test">
+
+    <url file_name="data_company.tst">
+    </url>
+    
+    <column_header specified="true" number="26">
+        <column name="VAR01" type="Double"/>
+        <column name="VAR02" type="Double"/>
+        <column name="VAR03" type="Double"/>
+        <column name="VAR04" type="Double" missing="9999999"/>
+        <column name="VAR05" type="Integer"/>
+        <column name="VAR06" type="Double"/>
+        <column name="VAR07" type="Double" missing="9999999"/>
+        <column name="VAR08" type="Double" missing="9999999"/>
+        <column name="VAR09" type="Double" missing="9999999"/>
+        <column name="VAR10" type="Double" missing="9999999"/>
+        <column name="VAR11" type="Double"/>
+        <column name="VAR12" type="Double" missing="9999999"/>
+        <column name="VAR13" type="Double" missing="9999999"/>
+        <column name="VAR14" type="Double"/>
+        <column name="VAR15" type="Double"/>
+        <column name="VAR16" type="Double" missing="9999999"/>
+        <column name="VAR17" type="Double" missing="9999999"/>
+        <column name="VAR18" type="Double" missing="9999999"/>
+        <column name="VAR19" type="Double" missing="9999999"/>
+        <column name="VAR20" type="Double"/>
+        <column name="VAR21" type="Double"/>
+        <column name="VAR22" type="Double" missing="9999999"/>
+        <column name="VAR23" type="Double" missing="9999999"/>
+        <column name="VAR24" type="Double"/>
+        <column name="VAR25" type="Double" missing="9999999"/>
+        <column name="VAR26" type="Double"/>
+    </column_header>
+
+    <row_header specified="true" prefix=""/>
+
+    <column_delimiter value=";"/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

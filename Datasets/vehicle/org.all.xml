@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Vehicle Silhouette Dataset">
+
+    <url file_name="org.all"></url>
+    
+    <column_header specified="false" number="19">
+        <column name="COMPACTNESS"              type="Integer"/>
+        <column name="CIRCULARITY"              type="Integer"/>
+        <column name="DISTANCE-CIRCULARITY"     type="Integer"/>
+        <column name="RADIUS-RATIO"             type="Integer"/>
+        <column name="PR-AXIS-ASPECT-RATIO"     type="Integer"/>
+        <column name="MAX-LENGTH-ASPECT-RATIO"  type="Integer"/>
+        <column name="SCATTER-RATIO"            type="Integer"/>
+        <column name="ELONGATEDNESS"            type="Integer"/>
+        <column name="PR-AXISRECTANGULAR"       type="Integer"/>
+        <column name="LENGTHRECTANGULAR"        type="Integer"/>
+        <column name="MAJORVARIANCE"            type="Integer"/>
+        <column name="MINORVARIANCE"            type="Integer"/>
+        <column name="GYRATIONRADIUS"           type="Integer"/>
+        <column name="MAJORSKEWNESS"            type="Integer"/>
+        <column name="MINORSKEWNESS"            type="Integer"/>
+        <column name="MINORKURTOSIS"            type="Integer"/>
+        <column name="MAJORKURTOSIS"            type="Integer"/>
+        <column name="HOLLOWS-RATIO"            type="Integer"/>
+        <column name="CLASS"                    type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="vehicle_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

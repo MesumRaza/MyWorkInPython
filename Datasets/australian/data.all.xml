@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Australian Credit Approval">
+
+    <url file_name="data.all">
+    </url>
+    
+    <column_header specified="false" number="15">
+        <column name="A1"  type="Double"/>
+        <column name="A2"  type="Double"/>
+        <column name="A3"  type="Double"/>
+        <column name="A4"  type="Double"/>
+        <column name="A5"  type="Double"/>
+        <column name="A6"  type="Double"/>
+        <column name="A7"  type="Double"/>
+        <column name="A8"  type="Double"/>
+        <column name="A9"  type="Double"/>
+        <column name="A10" type="Double"/>
+        <column name="A11" type="Double"/>
+        <column name="A12" type="Double"/>
+        <column name="A13" type="Double"/>
+        <column name="A14" type="Double"/>
+        <column name="A15" type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="australian_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

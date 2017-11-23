@@ -1,0 +1,14 @@
+D1 sunny hot high weak
+D2 sunny hot high strong
+D3 overcast hot high weak
+D4 rain mild high weak
+D5 rain cool normal weak
+D6 rain cool normal strong
+D7 overcast cool normal strong
+D8 sunny mild high weak
+D9 sunny cool normal weak
+D10 rain mild normal weak
+D11 sunny mild normal strong
+D12 overcast mild high strong
+D13 overcast hot normal weak
+D14 rain mild high strong

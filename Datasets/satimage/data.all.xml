@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Landsat Satellite Data">
+
+    <url file_name="data.all">
+    </url>
+    
+    <column_header specified="false" number="37">
+        <column name="A1"  type="Integer"/>
+        <column name="A2"  type="Integer"/>
+        <column name="A3"  type="Integer"/>
+        <column name="A4"  type="Integer"/>
+        <column name="A5"  type="Integer"/>
+        <column name="A6"  type="Integer"/>
+        <column name="A7"  type="Integer"/>
+        <column name="A8"  type="Integer"/>
+        <column name="A9"  type="Integer"/>
+        <column name="A10" type="Integer"/>
+        <column name="A11" type="Integer"/>
+        <column name="A12" type="Integer"/>
+        <column name="A13" type="Integer"/>
+        <column name="A14" type="Integer"/>
+        <column name="A15" type="Integer"/>
+        <column name="A16" type="Integer"/>
+        <column name="A17" type="Integer"/>
+        <column name="A18" type="Integer"/>
+        <column name="A19" type="Integer"/>
+        <column name="A20" type="Integer"/>
+        <column name="A21" type="Integer"/>
+        <column name="A22" type="Integer"/>
+        <column name="A23" type="Integer"/>
+        <column name="A24" type="Integer"/>
+        <column name="A25" type="Integer"/>
+        <column name="A26" type="Integer"/>
+        <column name="A27" type="Integer"/>
+        <column name="A28" type="Integer"/>
+        <column name="A29" type="Integer"/>
+        <column name="A30" type="Integer"/>
+        <column name="A31" type="Integer"/>
+        <column name="A32" type="Integer"/>
+        <column name="A33" type="Integer"/>
+        <column name="A34" type="Integer"/>
+        <column name="A35" type="Integer"/>
+        <column name="A36" type="Integer"/>
+        <column name="Class"  type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="satimage_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

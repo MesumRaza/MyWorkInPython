@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Pima Indians Diabetes Database">
+
+    <url file_name="data.all">
+    </url>
+    
+    <column_header specified="false" number="9">
+        <column name="Col_1" type="Double"/>
+        <column name="Col_2" type="Double"/>
+        <column name="Col_3" type="Double"/>
+        <column name="Col_4" type="Double"/>
+        <column name="Col_5" type="Double"/>
+        <column name="Col_6" type="Double"/>
+        <column name="Col_7" type="Double"/>
+        <column name="Col_8" type="Double"/>
+        <column name="Class" type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="diabetes_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

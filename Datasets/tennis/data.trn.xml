@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="PlayTennis Data">
+
+    <url file_name="data.trn">
+    </url>
+    
+    <column_header specified="true" number="5">
+        <column name="Outlook"     type="String"/>
+        <column name="Temperature" type="String"/>
+        <column name="Humidity"    type="String"/>
+        <column name="Wind"        type="String"/>
+        <column name="PlayTennis"  type="String"/>
+    </column_header>
+
+    <row_header specified="true" prefix="tennis_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

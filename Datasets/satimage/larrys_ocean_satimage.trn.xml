@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Larrys Satellite Data">
+
+    <url file_name="larrys_ocean_satimage.trn">
+    </url>
+    
+    <column_header specified="false" number="6">
+        <column name="A1"  type="Double"/>
+        <column name="A2"  type="Double"/>
+        <column name="A3"  type="Double"/>
+        <column name="A4"  type="Double"/>
+        <column name="A5"  type="Double"/>
+        <column name="Class"  type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="satimage_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

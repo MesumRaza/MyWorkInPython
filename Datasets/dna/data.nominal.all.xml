@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="DNA Dataset">
+
+    <url file_name="data.nominal.all">
+    </url>
+    
+    <column_header specified="false" number="61">
+        <column name="Col_0"  type="String"/>
+        <column name="Col_1"  type="String"/>
+        <column name="Col_2"  type="String"/>
+        <column name="Col_3"  type="String"/>
+        <column name="Col_4"  type="String"/>
+        <column name="Col_5"  type="String"/>
+        <column name="Col_6"  type="String"/>
+        <column name="Col_7"  type="String"/>
+        <column name="Col_8"  type="String"/>
+        <column name="Col_9"  type="String"/>
+        <column name="Col_10" type="String"/>
+        <column name="Col_11" type="String"/>
+        <column name="Col_12" type="String"/>
+        <column name="Col_13" type="String"/>
+        <column name="Col_14" type="String"/>
+        <column name="Col_15" type="String"/>
+        <column name="Col_16" type="String"/>
+        <column name="Col_17" type="String"/>
+        <column name="Col_18" type="String"/>
+        <column name="Col_19" type="String"/>
+        <column name="Col_20" type="String"/>
+        <column name="Col_21" type="String"/>
+        <column name="Col_22" type="String"/>
+        <column name="Col_23" type="String"/>
+        <column name="Col_24" type="String"/>
+        <column name="Col_25" type="String"/>
+        <column name="Col_26" type="String"/>
+        <column name="Col_27" type="String"/>
+        <column name="Col_28" type="String"/>
+        <column name="Col_29" type="String"/>
+        <column name="Col_30" type="String"/>
+        <column name="Col_31" type="String"/>
+        <column name="Col_32" type="String"/>
+        <column name="Col_33" type="String"/>
+        <column name="Col_34" type="String"/>
+        <column name="Col_35" type="String"/>
+        <column name="Col_36" type="String"/>
+        <column name="Col_37" type="String"/>
+        <column name="Col_38" type="String"/>
+        <column name="Col_39" type="String"/>
+        <column name="Col_40" type="String"/>
+        <column name="Col_41" type="String"/>
+        <column name="Col_42" type="String"/>
+        <column name="Col_43" type="String"/>
+        <column name="Col_44" type="String"/>
+        <column name="Col_45" type="String"/>
+        <column name="Col_46" type="String"/>
+        <column name="Col_47" type="String"/>
+        <column name="Col_48" type="String"/>
+        <column name="Col_49" type="String"/>
+        <column name="Col_50" type="String"/>
+        <column name="Col_51" type="String"/>
+        <column name="Col_52" type="String"/>
+        <column name="Col_53" type="String"/>
+        <column name="Col_54" type="String"/>
+        <column name="Col_55" type="String"/>
+        <column name="Col_56" type="String"/>
+        <column name="Col_57" type="String"/>
+        <column name="Col_58" type="String"/>
+        <column name="Col_59" type="String"/>
+        <column name="Class"  type="String"/>
+    </column_header>
+
+    <row_header specified="false" prefix="dna_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>
